@@ -1,0 +1,28 @@
+{
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "electronDownload": {
+    "cache": "%LOCALAPPDATA%\\electron\\Cache",
+    "mirror": "https://npmmirror.com/mirrors/electron/"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.0.2",
+    "@mui/material": "^7.0.2",
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0-rc.12",
+    "dom": "^0.0.3",
+    "electron": "^28.2.3",
+    "electron-builder": "^25.1.8",
+    "iconv-lite": "^0.6.3",
+    "jszip": "^3.10.1",
+    "pdf-lib": "^1.17.1",
+    "playwright": "^1.51.1",
+    "sharp": "^0.34.1",
+    "xmldom": "^0.6.0",
+    "xpath": "^0.0.34"
+  }
+}

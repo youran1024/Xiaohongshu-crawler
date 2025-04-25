@@ -1,0 +1,14 @@
+d:\Developer\小红书爬虫\
+├── main.js                 # 主进程入口
+├── index.html              # 主窗口HTML
+├── src/
+│   ├── browser/            # 浏览器相关功能
+│   │   └── crawler.js      # 爬虫功能
+│   ├── utils/              # 工具函数
+│   │   ├── file.js         # 文件操作
+│   │   └── network.js      # 网络请求
+│   ├── services/           # 服务层
+│   │   └── download.js     # 下载服务
+│   └── ipc/                # IPC通信处理
+│       └── handlers.js     # IPC事件处理器
+└── package.json
